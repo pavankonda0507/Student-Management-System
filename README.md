@@ -50,12 +50,12 @@ StudentManagementSystem/
 
 ### 🔹 Frontend Setup
 1. Go to the frontend folder:
-   cd Student_Management_System_Frontend
+cd Student_Management_System_Frontend
 
 2. Install dependencies:
-   npm install
+npm install
 
 3. Run the frontend
-   npm run dev
+npm run dev
 
 
