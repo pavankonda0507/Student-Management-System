@@ -38,24 +38,24 @@ StudentManagementSystem/
 
 ### 🔹 Backend Setup
 1. Go to the backend folder:
-   cd Student_Management_System_Backend
+- cd Student_Management_System_Backend
    
 2. Configure your MySQL Database in application.properties:
-   spring.datasource.url=jdbc:mysql://localhost:3306/student_db
-   spring.datasource.username=root
-   spring.datasource.password=yourpassword
+- spring.datasource.url=jdbc:mysql://localhost:3306/student_db
+- spring.datasource.username=root
+- spring.datasource.password=yourpassword
 
 4. Run the backend 
-   Run as Spring boot app
+- Run as Spring boot app
 
 ### 🔹 Frontend Setup
 1. Go to the frontend folder:
-cd Student_Management_System_Frontend
+- cd Student_Management_System_Frontend
 
 2. Install dependencies:
-npm install
+- npm install
 
 3. Run the frontend
-npm run dev
+- npm run dev
 
 
