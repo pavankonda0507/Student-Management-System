@@ -1,0 +1,48 @@
+
+.view {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.small {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.student-count {
+    height: 60px;
+    width: 60px;
+    margin-top: 7px;
+    margin-left: 80px;
+}
+.card-inner {
+    margin-left: 40px;
+}
+.student-heading {
+    font-weight: 600;
+    
+    
+}
+
+.count {
+    margin-top: 5px;
+    text-align: center;
+    
+
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.table tbody tr:hover {
+  transform: scale(1.02);
+  background-color: #eef6ff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  
+}

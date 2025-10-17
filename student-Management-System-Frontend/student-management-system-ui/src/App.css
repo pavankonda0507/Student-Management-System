@@ -1,0 +1,71 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-container > .navbar {
+  flex-shrink: 0;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.main-content > .sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background: #ffffff;
+  color: white;
+  overflow-y: auto; /* scroll if sidebar is tall */
+}
+
+.sidebar {
+  width: 200px; /* Fixed width for sidebar */
+  background-color: #f0f0f0;
+  margin-left: 20px
+}
+
+.page-content {
+  flex: 1;
+  padding: 0px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+
+.form-label {
+    font-size: 15px;
+    color: #0667b0;
+    font-weight: 700;
+    padding: 0 2px;
+}
+.modal-title {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.reset-submit {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    background-color: rgba(240, 248, 255, 0);
+    
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+  padding: 36px;
+}
